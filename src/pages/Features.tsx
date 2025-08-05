@@ -10,7 +10,7 @@ const Features = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="py-20 px-4 text-center">
+      <section className="pt-32 pb-20 px-4 text-center">
         <div className="container mx-auto max-w-4xl">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Powerful tools to enhance productivity

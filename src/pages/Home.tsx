@@ -27,7 +27,7 @@ const Home = () => {
       <Header />
       
       {/* Hero Section - Enhanced */}
-      <section className="relative py-24 px-4 text-center bg-gradient-to-br from-blue-50 via-white to-purple-50 overflow-hidden">
+      <section className="relative pt-32 pb-24 px-4 text-center bg-gradient-to-br from-blue-50 via-white to-purple-50 overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
         <div className="container mx-auto max-w-6xl relative">
           <div className="flex flex-col lg:flex-row items-center gap-12">

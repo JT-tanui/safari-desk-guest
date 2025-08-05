@@ -107,7 +107,7 @@ const Integration = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="py-20 px-4 text-center bg-gradient-to-b from-background to-muted/20">
+      <section className="pt-32 pb-20 px-4 text-center bg-gradient-to-b from-background to-muted/20">
         <div className="container mx-auto max-w-4xl">
           <Badge variant="secondary" className="mb-4">
             Integrations
