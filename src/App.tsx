@@ -19,6 +19,9 @@ import CaseStudy from "./pages/CaseStudy";
 import CaseStudyDetails from "./pages/CaseStudyDetails";
 import RequestDemo from "./pages/RequestDemo";
 import Changelog from "./pages/Changelog";
+import Dashboard from "./pages/Dashboard";
+import Career from "./pages/Career";
+import ProtectedRoute from "./components/ProtectedRoute";
 import Pricing from "./pages/Pricing";
 import About from "./pages/About";
 
@@ -46,6 +49,12 @@ const App = () => (
           <Route path="/case-study/:id" element={<CaseStudyDetails />} />
           <Route path="/demo" element={<RequestDemo />} />
           <Route path="/changelog" element={<Changelog />} />
+          <Route path="/career" element={<Career />} />
+          <Route path="/dashboard" element={
+            <ProtectedRoute>
+              <Dashboard />
+            </ProtectedRoute>
+          } />
           <Route path="/terms" element={<Terms />} />
           <Route path="/privacy" element={<Privacy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
